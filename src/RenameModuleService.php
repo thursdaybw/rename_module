@@ -32,8 +32,8 @@ class RenameModuleService {
   public function renameModule($old_name, $new_name) {
     $module_path = $this->locateModule($old_name);
     $this->replaceOccurrences($module_path, $old_name, $new_name);
-    //$this->renameFiles($module_path, $old_name, $new_name);
-    //$this->renameDirectory($module_path, $old_name, $new_name);
+    $this->renameFiles($module_path, $old_name, $new_name);
+    $this->renameDirectory($module_path, $old_name, $new_name);
   }
 
   /**
