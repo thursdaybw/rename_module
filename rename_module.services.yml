@@ -1,0 +1,4 @@
+services:
+  rename_module.rename_module_service:
+    class: Drupal\rename_module\RenameModuleService
+    arguments: ['@module_handler']

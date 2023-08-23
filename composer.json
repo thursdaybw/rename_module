@@ -1,0 +1,32 @@
+{
+  "name": "drupal/rename_module",
+  "description": "A Drupal module that provides a Drush command to rename custom Drupal modules.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^9.0 || ^10.0",
+    "drush/drush": "^10.0"
+  },
+  "homepage": "https://drupal.org/project/rename_module",
+  "authors": [
+    {
+      "name": "Bevan Wishart",
+      "email": "bevan.wishart@gmail.com"
+    }
+  ],
+  "extra": {
+    "drupal": {
+      "version": "1.0.0",
+      "datestamp": "1630454400",
+      "security-coverage": {
+        "status": "covered",
+        "message": "This project is provided under the security advisory policy for Drupal contributed projects."
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\rename_module\\": "src/"
+    }
+  }
+}

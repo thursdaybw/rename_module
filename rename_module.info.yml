@@ -1,0 +1,5 @@
+name: 'Rename Module'
+type: module
+description: 'Provides a Drush command to rename a custom Drupal module.'
+core_version_requirement: ^9 | ^10
+package: Custom

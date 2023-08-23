@@ -1,0 +1,6 @@
+services:
+  rename_module.commands:
+    class: Drupal\rename_module\Commands\RenameModuleCommands
+    arguments: ['@rename_module.rename_module_service']
+    tags:
+      - { name: drush.command }
